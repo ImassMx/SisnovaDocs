@@ -72,6 +72,17 @@ El parámetro `product` es requerido de lo contrario se regresará una respuesta
 
 Se pueden agregar parámetros adicionales al request, y todo serán guardados como parte Token.body:
 
+Request
+```json
+{
+	"product": "prueba",
+	"plan": "Plan de Prueba",
+	"precio": 123.45,
+	"contratacion": false
+}
+```
+
+Response
 ```json
 {
     "_id": "5b7216d90b684943ff350292",
